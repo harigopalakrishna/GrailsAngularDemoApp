@@ -114,12 +114,13 @@ log4j = {
            'net.sf.ehcache.hibernate'
 }
 
-grails.plugins.springsecurity.userLookup.userDomainClassName = 'User'
-grails.plugins.springsecurity.userLookup.usernamePropertyName = 'email'
-grails.plugins.springsecurity.userLookup.passwordPropertyName = 'password'
-grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'UserRole'
-grails.plugins.springsecurity.authority.className = 'Role'
-grails.plugins.springsecurity.auth.loginFormUrl = "/login"
-grails.plugins.springsecurity.auth.defaultUrl = "/"
-grails.plugins.springsecurity.successHandler.defaultTargetUrl = "/"
-grails.plugins.springsecurity.failureHandler.defaultFailureUrl = "/login/loginFailed"
+grails.plugin.springsecurity.userLookup.userDomainClassName = 'User'
+grails.plugin.springsecurity.userLookup.usernamePropertyName = 'email'
+grails.plugin.springsecurity.userLookup.passwordPropertyName = 'password'
+grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'UserRole'
+grails.plugin.springsecurity.authority.className = 'Role'
+grails.plugin.springsecurity.auth.loginFormUrl = "/login"
+grails.plugin.springsecurity.auth.defaultUrl = "/"
+grails.plugin.springsecurity.successHandler.defaultTargetUrl = "/"
+grails.plugin.springsecurity.failureHandler.defaultFailureUrl = "/login/loginFailed"
+//grails.plugin.springsecurity.password.algorithm='bcrypt'
